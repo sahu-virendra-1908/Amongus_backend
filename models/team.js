@@ -4,8 +4,7 @@ const teamSchema = new mongoose.Schema({
   teamName: {
     type: String,
     required: true,
-    unique: true,
-    trim: true
+   
   },
   location: {
     latitude: {
